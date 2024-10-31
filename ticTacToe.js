@@ -74,8 +74,6 @@ function playAgain() {
 
     buttons.forEach((e) => { e.textContent = "" });
 
-    let playerdetail = document.querySelector("#player1Header");
-    playerdetail.textContent = "Player 1 please select";
 
     playerTurn = 0;
     playerOneScore = [];
