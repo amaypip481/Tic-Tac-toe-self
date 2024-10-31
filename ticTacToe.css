@@ -24,6 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
+    touch-action: manipulation;
 }
 
 #button-1{
