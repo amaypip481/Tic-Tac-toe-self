@@ -1,6 +1,6 @@
-.tictactoebuttons{
-    min-height: 180px;
-    min-width: 180px;
+.tictactoebuttons{  
+    min-width: 32vw;
+    min-height: 32vh;
     font-size: 150px;
     border: solid;
     border-width: 1px;
@@ -10,16 +10,18 @@
 }
 
 #tictactoeHeader{
-    max-width: 540px;
+
+    width: 100vw;
     height: auto;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     
 }
 
 body{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: rgb(0, 0, 0);
 }

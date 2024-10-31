@@ -24,8 +24,6 @@ function buttonpressed(e) {
             winnerHeader.textContent = "Player 1 wins!"
         }
         playerTurn = 1;
-        let playerdetail = document.querySelector("#player1Header");
-        playerdetail.textContent = "Player 2 please select";
     }
 
     else if (playerTurn === 1) {
@@ -38,8 +36,6 @@ function buttonpressed(e) {
             winnerHeader.textContent = "Player 2 wins!"
         }
         playerTurn = 0;
-        let playerdetail = document.querySelector("#player1Header");
-        playerdetail.textContent = "Player 1 please select";
     }
 }
 
