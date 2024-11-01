@@ -25,6 +25,7 @@ body{
     align-items: center;
     background-color: rgb(0, 0, 0);
     touch-action: manipulation;
+    -webkit-text-size-adjust:none
 }
 
 #button-1{
