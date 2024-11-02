@@ -8,6 +8,7 @@
     background-color: white;
     color: rgb(205, 209, 141);
     -webkit-appearance: none;
+    padding: 0px;
 }
 
 #tictactoeHeader{
